@@ -80,9 +80,31 @@ body{
     margin-bottom: 27px;
 }
 
+.botones {
+    width: 280px;
+    display: flex;
+    gap: 5px;
+    border: 2px solid #6b6380;
+    padding: 5px;
+    border-radius: 5px;
 
+}
 
+.btn {
+    padding: 15px 25px;
+    background-color: white;
+    color: #e83e8c;
+    border: none;
+    border-radius: 2px;
+}
 
+.features {
+    padding: 15px 25px;
+    background-color: #2E2550;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
 .hero2 {
     width: 50%; 
     height: 550px; 
@@ -97,6 +119,85 @@ body{
 
 }
 
+.phone img{
+    width: 200px;
+    height: auto;
+}
+
+.funcionalidades {
+    width: 100%;
+    background-color: #f4f4fa;
+    padding: 40px 0;
+}
+
+.funcionalidades h2 {
+    text-align: center;
+    color: #f2188c;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.contenido-funcionalidades {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagen-tablet {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-tablet img {
+    width: 400px;
+}
+
+.informacion {
+    width: 40%;
+}
+
+.informacion h3 {
+    color: #d64b91;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.informacion p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.informacion h4 {
+    color: #f2188c;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.informacion ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacion li {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.informacion li i {
+    color: #f2188c;
+    margin-right: 7px;
+    font-size: 14px;
+}
 
 
 
@@ -114,5 +215,4 @@ footer {
     color: #e83e8c;
     margin: 0 4px;
 }
-
 
