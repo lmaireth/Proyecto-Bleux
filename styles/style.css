@@ -73,7 +73,7 @@ body{
 }
 
 .hero1 p {
-    width: 400px;
+    width: 100%;
     font-size: 18px;
     line-height: 1.7;
     color: #eeeeee;
@@ -115,7 +115,6 @@ body{
 
     background-size: cover;
     padding-top: 100px;
-    padding-left: 100px;
 
 }
 
@@ -368,4 +367,85 @@ footer {
     color: #444;
     text-decoration: none;
     font-size: 18px;
+}
+
+@media(max-width:1279px){
+
+    .hero1{
+        padding-left: 8%;
+    }
+
+    .hero1 h1{
+        font-size: 60px;
+    }
+
+    .hero2{
+        padding-left: 50px;
+    }
+
+    .phone img{
+        width: 170px;
+    }
+
+    .contenido-funcionalidades{
+        width: 90%;
+    }
+
+    .plans{
+        width: 100%;
+        gap: 15px;
+    }
+
+}
+@media(max-width:920px){
+
+    .hero1{
+        padding-left: 7%;
+        padding-top: 90px;
+    }
+
+    .hero1 h1{
+        font-size: 55px;
+    }
+
+    .hero1 p{
+        font-size: 17px;
+    }
+
+    .hero2{
+        padding-left: 50px;
+    }
+
+    .phone img{
+        width: 170px;
+    }
+
+    .contenido-funcionalidades{
+        width: 90%;
+        gap: 20px;
+    }
+
+    .imagen-tablet img{
+        width: 330px;
+    }
+
+    .informacion{
+        width: 45%;
+    }
+
+    .plans{
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+
+    .plan{
+        width: 30%;
+    }
+}
+@media(max-width:768px){
+
+}
+@media(max-width:480px){
+
 }
