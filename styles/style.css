@@ -115,6 +115,7 @@ body{
 
     background-size: cover;
     padding-top: 100px;
+    padding-left: 50px ;
 
 }
 
@@ -214,10 +215,12 @@ body{
 }
 
 .pricing > p {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    text-align: center;
     color: #d4d1da;
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 30px;
 }
 
 .plans {
@@ -371,24 +374,39 @@ footer {
 
 @media(max-width:1279px){
 
+    .menu{
+        gap: 20px;
+        padding: 20px;
+    }
+
     .hero1{
         padding-left: 8%;
     }
 
-    .hero1 h1{
-        font-size: 60px;
+    .hero2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
 
-    .hero2{
-        padding-left: 50px;
+    .phone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .phone img{
-        width: 170px;
+        width: 200px;
+        height: auto;
     }
 
     .contenido-funcionalidades{
         width: 90%;
+    }
+
+    .pricing > p{
+        padding: 30px;
     }
 
     .plans{
@@ -398,6 +416,11 @@ footer {
 
 }
 @media(max-width:920px){
+
+    .menu{
+        gap: 20px;
+        padding: 20px;
+    }
 
     .hero1{
         padding-left: 7%;
@@ -445,7 +468,175 @@ footer {
 }
 @media(max-width:768px){
 
+    .menu{
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+
+    .hero{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero1,
+    .hero2{
+        width: 100%;
+        height: 450px;
+    }
+
+    .hero1 h1{
+        font-size: 55px;
+    }
+
+
+    .hero2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .phone img{
+        width: 190px;
+    }
+
+    .contenido-funcionalidades{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .imagen-tablet,
+    .informacion{
+        width: 100%;
+    }
+
+    .imagen-tablet img{
+        width: 300px;
+        max-width: 100%;
+    }
+
+
+    .pricing{
+        flex-direction: column;
+    }
+
+    .pricing h2{
+        font-size: 40px;
+    }
+
+    .pricing > p{
+        padding: 0 20px;
+    }
+
+    .plans{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .plan{
+        width: 50%;
+    }
+
+
 }
+
 @media(max-width:480px){
 
+    .menu{
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .menu img{
+        width: 100px;
+    }
+
+    .menu ul{
+        gap: 12px;
+    }
+
+    .menu a{
+        font-size: 14px;
+    }
+
+    .menu button{
+        padding: 5px 8px;
+    }
+
+    .hero1{
+        height: 430px;
+        padding: 60px 25px;
+    }
+
+    .hero1 h1{
+        font-size: 45px;
+    }
+
+    .hero1 p{
+        font-size: 15px;
+    }
+
+    .hero2{
+        height: 400px;
+    }
+
+    .phone img{
+        width: 170px;
+    }
+
+    .funcionalidades{
+        padding: 30px 0;
+    }
+
+    .funcionalidades h2{
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+
+    .imagen-tablet img{
+        width: 300px;
+    }
+
+    .informacion h3{
+        font-size: 30px;
+    }
+
+    .informacion p{
+        font-size: 15px;
+    }
+
+    .pricing{
+        padding: 35px 0;
+    }
+
+    .pricing h2{
+        font-size: 35px;
+    }
+
+    .pricing > p{
+        font-size: 14px;
+    }
+
+    .plans{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plan{
+        width: 280px;
+        max-width: 90%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright{
+        font-size: 13px;
+    }
 }
